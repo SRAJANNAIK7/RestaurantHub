@@ -1,0 +1,228 @@
+*{
+    padding: 0; margin: 0; box-sizing: border-box;
+}
+
+html{
+    
+    scroll-behavior: smooth;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+    
+#head-container{
+    display: flex;
+    width: 100%;
+    /* border: 2px dotted black; */
+    background-color: deeppink;
+    padding: 10px 0 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+#head-container .logo{
+    /* border: 2px dotted red; */
+    width: 10%; 
+    /* flex-grow: 1; */
+}
+
+#head-container .logo img{
+    display: block;
+    width: auto;
+    margin: auto;
+    height: 5rem;
+}
+
+#head-container nav{
+    /* border: 2px dotted red; */
+    width: 70%; 
+    /* flex-grow: 4;  */
+}
+
+#head-container nav ul{
+    display: flex;
+    margin-top: 18px;
+    flex-wrap: wrap;
+    /* margin-left: 1rem; */
+}
+
+#head-container nav ul li{
+    list-style: none;
+    /* flex-grow: 1; */
+    padding: 0 1rem 0 1rem;
+    font-size: 2rem;   
+}
+
+#head-container nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 0 15px;
+}
+
+#head-container nav ul li a:hover{        
+    background-color: white;
+    color: black;
+    border-radius: 25px;
+}
+
+#search{
+    /* border: 2px dotted red; */
+    /* flex-grow: 1.5; */
+    width: 20%;
+}
+
+#search input{
+    width: 80%;
+    text-align: center;
+    margin: 20px 0 0 0;
+    height: 2rem;
+    border-radius: 20px;
+    font-size: medium;
+}
+
+#main{
+    /* border: 2px dotted black; */
+    background-image: url('bg1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    color: white;
+
+}
+
+.main_container{
+    /* border: 2px dotted red;   */
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    position: absolute;
+    z-index: 2;
+    top: 10rem;
+}
+
+
+#main h6{
+    text-align: center;
+    font-size: 5rem;
+}
+
+#main p{
+    text-align: center;
+    font-size: 2rem;
+    margin: 4rem 3rem 0 3rem;
+}
+
+.btn{
+    background-color: rgb(165, 31, 31);
+    font-size: 2rem;
+    border: 2px solid white;
+    color: white;
+    border-radius: 20px;
+    width: 20%;
+    margin-top: 5rem;
+    cursor: pointer;
+}
+
+h1{
+    text-align: center;
+    margin-top: 1.5rem;
+    font-size: 3rem;
+}
+
+
+#client{
+    /* border: 2px dotted black; */
+    background-image: url('../img/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    height: 350px;
+}
+
+.overlay{
+    background-color: #000000a8;
+    color: white;
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+.client_container{
+    /* border: 2px dotted black; */
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    top: 4rem;
+    left:10%;
+    right: 10%;
+}
+
+
+
+#client .box{
+    /* border: 2px dotted red; */
+    padding: 0 2rem;
+    margin: 2rem 2rem 2rem 2rem;
+}
+
+#client .box img{
+    width: 10rem;
+    height: 10rem;
+}
+
+#contact{
+    /* border: 2px dotted black; */
+    background-image: url('../img/contact.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 1rem 0;
+}
+
+#contact form{
+    /* border: 2px dotted red; */
+    width: 50%;
+    margin: 1rem auto;
+    /* margin-bottom: 1rem; */
+
+}
+
+#contact form label,textarea,input{
+    display: block;
+    width: 100%;
+    font-size: 1.5rem;
+}
+
+#contact form input{
+    border-radius: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+#contact form textarea{
+    border-radius: 0.8rem;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 1rem 0;
+}
+
+footer div{
+    text-align: center;
+}
+.main_container {
+    /* Existing styles */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+

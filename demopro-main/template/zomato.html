@@ -1,0 +1,130 @@
+<!-- Code by technoniit  -->
+
+<!Doctype html>
+<html>
+<head>
+    
+   <title>Tomato</title>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap Code -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <!-- Bootstrap code end -->
+ 
+    <!-- CSS Code -->
+   <style>
+body{background-image: url("https://img.freepik.com/free-photo/vegetables-set-left-black-slate_1220-685.jpg?size=626&ext=jpg&ga=GA1.2.1821626773.1677157478&semt=sph");
+background-repeat: no-repeat;
+background-size: cover;}
+   div#a
+ {
+ background-color:red;
+ font-family: cursive;
+ opacity:0.7;
+ width:400px;
+ height:630px;
+ color:black;
+ border-radius:70px;  
+ }
+     h1
+ {
+ color:black;
+ }
+     table td
+ {
+  padding-top:6px;
+ } 
+   </style>
+    <!-- CSS Code End -->
+  
+</head>
+<body>
+<center>
+<div id="a" class="container">
+<form method="post" action="" class="form-horizontal">
+    {% csrf_token %}
+<h1 id="zomato">
+Order Here</h1>
+<div class="form-group">
+<table>
+<tr>
+ <td>Name:</td>
+ <td><input type="text" placeholder="Example" name="uname" required class="form-control"></td>
+ </tr>
+<tr>
+ <td>Date:</td>
+ <td><input type="Date" name="date" required class="form-control"></td>
+ </tr>
+<tr>
+ <td>Email:</td>
+ <td><input type="email" placeholder="Example@gmail.com" name="email" required class="form-control"></td>
+ </tr>
+<tr>
+ <td>Contact Number:</td>
+ <td><input type="number" placeholder="1234567890" name="number" required class="form-control"></td>
+ </tr>
+<tr>
+ <td>Select Food:</td>
+ <td><input name="food" type="radio" checked value="Non-Vegetation" required>Non-Vegetation
+     <input name="food" type="radio" value="Vegetation" required >Vegetation</td>
+ </tr>
+<tr>
+ <td><label for="restro">Select Restaurant:</label></td>
+ <td><select class="form-control" id="Restaurant" name="Restaurant">
+  <option value="opt1">Select your Restaurant</option>
+  <option value="Mahek Restaurant">Mahek Restaurant</option>
+  <option value="Janta Restaurant">Janta Restaurant</option>
+  <option value="opt4">Galaxy Restaurant</option>
+  <option value="opt5">Brijwasi Restaurant</option>
+ </Select></td>
+ </tr>
+<tr>
+ <td><label for="Drinks">Drinks:</label></td>
+ <td><select class="form-control">
+  <option value="opt6">Select your Drinks</option>
+  <option value="opt7">Cappuccino</option>
+  <option value="opt8">Caffelatte</option>
+  <option value="opt9">Cold Drinks</option>
+ </Select></td>
+ </tr>
+<tr>
+ <td><label for="soups">Soups:</label></td>
+ <td><select class="form-control">
+         <option value="opt10">Select the Soups of your choice</option>
+  <option value="opt11">Tomato Soup</option>
+  <option value="opt12">MineStronw</opteon>
+  <option value="opt13">Fonduta</option>
+  <option value="opt14">Pasta e fagioli</option>
+ </Select></td>
+ </tr>
+<tr>
+ <td><label for="dishes">Dishes:</label></td>
+ <td><select class="form-control">
+  <option value="opt15">Select the dishes of your choice</option>
+  <option value="opt16">Pasta</option>
+  <option value="opt17">Rice</option>
+  <option value="opt18">Half-plate</option>
+  <option value="opt19">Full-Plate</option>
+ </Select></td>
+ </tr>
+<tr>
+ <td>Order For:</td>
+ <td><input name="order" type="radio"  value="Take Away" required>Take Awqay
+     <input name="order" type="radio" value="Home Delivery" required>Home Delivery</td>
+ </tr>
+
+
+<tr>
+ <td><button value="btn" class="btn btn-primary btn-block">Submit</button></td>
+ <td style="padding-left:50px;"><button value="btn1" type="reset" class="btn btn-primary btn-block">Reset</button></td>
+ </tr>
+</table>
+</div>
+</form>
+</div>
+</center>
+</body>
+</html>

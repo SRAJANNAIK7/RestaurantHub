@@ -1,0 +1,73 @@
+#head-container{
+    flex-direction: column;
+    align-items: center;
+    position: static;
+}
+
+#head-container .logo{
+    width: 100%;
+}
+
+#head-container nav{
+    width: 100%; 
+    
+}
+
+#head-container nav ul{
+    justify-content: center;
+}
+
+#search {
+    width: 100%
+}
+
+#search input{
+    margin:20px 20px 0 20px;
+    width: 60%;
+    margin: 20px auto 0 auto;
+}
+
+#main{
+    height: 445px;
+}
+
+.main_container{
+    top: 3rem;
+}
+
+#main h6{
+    font-size: 2rem;
+
+}
+
+#main p{
+    font-size: 1rem;
+    margin-top: 3rem;
+}
+
+.btn{
+    font-size: 1rem;
+    width: 30%;
+    height: 40px;
+    margin-top: 3rem;
+}
+
+
+#services{
+    flex-direction: column;
+    /* margin: auto; */
+    /* justify-content: center; */
+}
+
+#services .box{
+    width: 90%;
+    margin: 1rem auto;
+}
+
+.client_container{
+    overflow: scroll;
+}
+
+#contact form{
+    width: 90%;
+}
