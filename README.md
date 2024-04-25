@@ -1,6 +1,6 @@
 This Restaurant Management System Project in Django created based on python, Django, and MySQL Database. Restaurant Management System Project created using Python Django Framework on the backend and HTML, CSS, and JavaScript on the frontend. It has Admin side which allows extra features like manage food, sales, order, users, and inventory.
 
-#Output
+# Output
 ![Screenshot 2024-03-17 184157](https://github.com/SRAJANNAIK7/RestaurantHub/assets/105223888/2236d645-0ffb-4b7b-9435-9df9d8a90187)
 
 ![Screenshot 2024-03-17 184303](https://github.com/SRAJANNAIK7/RestaurantHub/assets/105223888/7716cd90-bf4e-48f1-bb83-9918a7ab886e)
